@@ -1,0 +1,19 @@
+button{
+    margin: 5px;
+}
+#gesturePic{
+    height: auto;
+    width: auto;
+}
+#battlescreenImg{
+    height: 100px;
+    width: 100px;
+}
+.characterImg{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+img{
+    border: 2px solid black;
+}
