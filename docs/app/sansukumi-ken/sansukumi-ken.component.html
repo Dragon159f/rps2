@@ -1,0 +1,18 @@
+<!--Game Buttons-->
+<div>
+  <button type="submit" class="btn btn-secondary" (click)="handMode = false">Animal Mode</button>
+  <button type="submit" class="btn btn-secondary" (click)="handMode = true">Hand Mode</button>
+</div>
+<img id="gesturePic" src="../../assets/download.jpg">
+<div>
+  <h3>Choices</h3>
+  <button class="btn btn-primary btn-lg" type="submit" (click)="rps('slug')">Slug(スラグ)</button>
+  <button class="btn btn-success btn-lg" type="submit" (click)="rps('frog')">Frog(カエル)</button>
+  <button class="btn btn-danger btn-lg" type="submit" (click)="rps('snake')">Snake(ヘビ)</button>
+</div>
+<div>
+  <h1></h1>
+  <img src={{user}} class="characterImg">
+  <img src={{battleScreen}} id="battlescreenImg">
+  <img src={{cpu}} class="characterImg">
+</div>
